@@ -1,0 +1,48 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 10px 10%;
+  height: 100%-24px;
+}
+
+h1 {
+  color: rgb(50, 20, 20);
+  text-decoration: underline;
+}
+
+h2{
+  color: rgb(50, 20, 20);
+  font-size: 1.5vw;
+  text-decoration: underline;
+}
+
+p {
+  color: rgb(50, 20, 20);
+  font-size: 1.15vw;
+}
+
+a{
+  color: rgb(50, 20, 20);
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  white-space: nowrap;
+  
+}
+
+footer{
+  text-align: center;
+  margin: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 24px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
