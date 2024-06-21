@@ -1,28 +1,34 @@
+:root{
+  --primary-colour: white;
+  --secondary-colour: #321414;
+}
+
 body {
-  background-color: #ffffff;
+  background-color: var(--primary-colour);
   font-family: Arial, sans-serif;
-  margin: 10px 10%;
-  height: 100%-24px;
+  height: (100%-24px);
+  color: var(--secondary-colour);
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 h1 {
-  color: rgb(50, 20, 20);
+  
   text-decoration: underline;
 }
 
 h2{
-  color: rgb(50, 20, 20);
+  
   font-size: 1.5vw;
   text-decoration: underline;
 }
 
 p {
-  color: rgb(50, 20, 20);
   font-size: 1.15vw;
 }
 
 a{
-  color: rgb(50, 20, 20);
+  font-size: 1.15vw;
 }
 
 li{
@@ -39,10 +45,54 @@ footer{
   padding-bottom: 10px;
   height: 24px;
 }
+header{
+  margin-bottom: 65px;
+}
+
+nav{
+  width: 100%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 25px;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: var(--secondary-colour);
+  font-size: 25px;
+}
+nav ul li a:hover{
+  color: #ffa602;
+}
+
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+
+.logo{
+  width: 100px;
+  cursor: pointer;
+}
+
+.link:hover{
+  color: #ffa602;
+}
+
+.main-text{
+  margin: 10px 15px;
+
 }
